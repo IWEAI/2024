@@ -1,0 +1,1 @@
+import{q as o,o as s,s as t,t as c,v as d,x as a}from"./index-w6NR17bI.js";const _={},r=e=>(c("data-v-7d15f5ed"),e=e(),d(),e),n={class:"tbd-card"},p=r(()=>a("h1",null,"To Be Determined",-1)),i=[p];function f(e,h){return s(),t("div",n,i)}const m=o(_,[["render",f],["__scopeId","data-v-7d15f5ed"]]);export{m as T};
