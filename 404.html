@@ -5,7 +5,9 @@
   <script>
     (function() {
       var pathname = window.location.pathname;
-      window.location.replace('/2024' + pathname + window.location.search + window.location.hash);
+      if (!pathname.startsWith('/2024')) {
+        window.location.replace('/2024' + pathname + window.location.search + window.location.hash);
+      }
     })();
   </script>
 </head>
