@@ -15,7 +15,7 @@
     background-size: cover;
     background-position: center;
     /* background: linear-gradient(90deg,  rgba(222, 238, 255, 0.5),rgba(33, 113, 181, 0.5) 85%);*/
-    background: #003973; 
+    background: #004076; 
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px #a1adb9;

@@ -29,6 +29,7 @@ declare module 'vue' {
     ProgramCard: typeof import('./src/components/Program/ProgramCard.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    TBDCard: typeof import('./src/components/TBDView/TBDCard.vue')['default']
     VenueCard: typeof import('./src/components/Venue/VenueCard.vue')['default']
     WelCard: typeof import('./src/components/Home/WelCard.vue')['default']
   }

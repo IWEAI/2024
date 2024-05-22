@@ -42,11 +42,12 @@ export function useHeader() {
     {
       title: "SUBMISSION",
       path: "/submission",
-      link:"https://www.easychair.org/",
+      // link:"https://www.easychair.org/",
     },
     {
-      title: "VENUE",
-      path: "/venue",
+      title: "ATTENDING",
+      path: "/attending",
+      link:"https://www.pricai.org/2024/index.php/attending",
     },
     {
       title: "LOCAL ATTRACTIONS",
@@ -54,7 +55,7 @@ export function useHeader() {
     },
     {
       title: "PAST IWEAI",
-      path: "/past",
+      path: "/home",
   //     children: [
   //       {
   //         title: "ORGANIZING COMMITTEE",

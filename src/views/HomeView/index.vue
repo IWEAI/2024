@@ -6,8 +6,8 @@
         <WelCard class="commom"></WelCard>
       </el-col>
       <el-col :xs="20" :sm="20" :md="20" :lg="6" :xl="6">
-      <DatesCard class="commom"></DatesCard>
-      <FlyerCard class="commom"></FlyerCard>
+      <DatesCard></DatesCard>
+      <!-- <FlyerCard class="commom"></FlyerCard> -->
       </el-col>
     </el-row>
   </div>
@@ -16,7 +16,7 @@
 import NewsCard from "@/components/Home/NewsCard.vue";
 import WelCard from "@/components/Home/WelCard.vue";
 import DatesCard from "@/components/Home/DatesCard.vue";
-import FlyerCard from "@/components/Home/FlyerCard.vue";
+// import FlyerCard from "@/components/Home/FlyerCard.vue";
 
 </script>
 

@@ -38,7 +38,7 @@ h2,p{
     text-align: left;
 }
 .name{
-  background: #003973;
+  background: #004076;
   color: #fff;
   padding: 0 10px;
   margin: 20px 0 20px 0;
@@ -49,7 +49,7 @@ h2,p{
     width: 300px;
     img{
       opacity: 1;
-      border: solid 3px #003973;
+      border: solid 3px #004076;
     top: 0;
     left: 0;
     z-index: 0;
@@ -100,12 +100,12 @@ h2,p{
 .right{
   animation-delay: 1s;
  h2:hover{
-  // background: #003973;
+  // background: #004076;
   background-color: rgba(180, 214, 255, 0.3);
   // color: #fff;
 }
  p:hover{
-  // background: #003973;
+  // background: #004076;
   background-color: rgba(180, 214, 255, 0.3);
 
   // color: #fff;

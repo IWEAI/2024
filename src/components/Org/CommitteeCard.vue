@@ -9,19 +9,19 @@
                     <div class="row committee-sub mx-auto">
                         <div class="col-lg-4 committee-people">
                             <img src="@/assets/imgs/keynote1.jpg" class="img-thumbnail rounded-circle">
-                            <br><strong>Shiqing Wu</strong>
-                            <br>University of Technology Sydney, Australia
+                            <br><strong>Yuncheng Jiang</strong>
+                            <!-- <br>University of Technology Sydney, Australia -->
                         </div>
                         <div class="col-lg-4 committee-people">
                             <img src="@/assets/imgs/keynote1.jpg" class="img-thumbnail rounded-circle">
-                            <br><strong>Wenli Yang</strong>
-                            <br>University of Tasmania, Australia
+                            <br><strong>Gang Li</strong>
+                            <!-- <br>University of Tasmania, Australia -->
                         </div>
-                        <div class="col-lg-4 committee-people">
+                        <!-- <div class="col-lg-4 committee-people">
                             <img src="@/assets/imgs/keynote1.jpg" class="img-thumbnail rounded-circle">
                             <br><strong>Muhammad Bilal Amin</strong>
                             <br>University of Tasmania, Australia
-                        </div>
+                        </div> -->
                     </div>
                         <div class="col-lg-12">
                             <h3>Program Chairs</h3>
@@ -29,13 +29,13 @@
                     <div class="row committee-sub mx-auto">
                         <div class="col-lg-6 committee-people">
                             <img src="@/assets/imgs/keynote1.jpg" class="img-thumbnail rounded-circle">
-                            <br><strong>Byeong Kang</strong>
-                            <br>University of Tasmania, Australia
+                            <br><strong>Jieyu Zhan</strong>
+                            <!-- <br>University of Tasmania, Australia -->
                         </div>
                         <div class="col-lg-6 committee-people">
                             <img src="@/assets/imgs/keynote1.jpg" class="img-thumbnail rounded-circle">
-                            <br><strong>Guandong Xu</strong>
-                            <br>University of Technology Sydney, Australia
+                            <br><strong>Guojing Zhou</strong>
+                            <!-- <br>University of Technology Sydney, Australia -->
                         </div>
                     </div>
                         <div class="col-lg-12">
@@ -44,11 +44,16 @@
                     <div class="row committee-sub mx-auto">
                         <div class="col-lg-12 committee-people">
                             <img src="@/assets/imgs/keynote1.jpg" class="img-thumbnail rounded-circle">
-                            <br><strong>Yan Kong</strong>
-                            <br>Nanjing University of Information Science &amp; Technology, China
+                            <br><strong>Lihua Cai</strong>
+                            <!-- <br>Nanjing University of Information Science &amp; Technology, China -->
+                        </div>
+                        <div class="col-lg-12 committee-people">
+                            <img src="@/assets/imgs/keynote1.jpg" class="img-thumbnail rounded-circle">
+                            <br><strong>Wenjun Ma</strong>
+                            <!-- <br>Nanjing University of Information Science &amp; Technology, China -->
                         </div>
                     </div>
-                        <div class="col-lg-12">
+                        <!-- <div class="col-lg-12">
                             <h3>Webmaster and Workshop Coordinators</h3>
                         </div>
                     <div class="row committee-sub mx-auto">
@@ -78,36 +83,16 @@
                             <br><strong>Hiroshi Motoda</strong>
                             <br>Osaka University, Japan
                         </div>
-                    </div>
+                    </div> -->
                         <div class="col-lg-12">
-                            <h3>Advisory Committee</h3>
+                            <h3>Advisory Board</h3>
                         </div>
                     <div class="row committee-sub mx-auto">
                         <div class="col-lg-4 committee-people">
-                            <img src="@/assets/imgs/keynote1.jpg" class="img-thumbnail rounded-circle">
-                            <br><strong>Quan Bai</strong>
-                            <br>University of Tasmania, Australia
+                            <h2>To Be Determined</h2>
+                            <!-- <br>University of Tasmania, Australia -->
                         </div>
-                        <div class="col-lg-4 committee-people">
-                            <img src="@/assets/imgs/keynote1.jpg" class="img-thumbnail rounded-circle">
-                            <br><strong>Qing Liu</strong>
-                            <br>Data61, CSIRO, Australia
-                        </div>
-                        <div class="col-lg-4 committee-people">
-                            <img src="@/assets/imgs/keynote1.jpg" class="img-thumbnail rounded-circle">
-                            <br><strong>Maria R Lee</strong>
-                            <br>Shih Chien University, Taiwan
-                        </div>
-                        <div class="col-lg-6 committee-people">
-                            <img src="@/assets/imgs/keynote1.jpg" class="img-thumbnail rounded-circle">
-                            <br><strong>Kenichi Yoshida</strong>
-                            <br>University of Tsukuba, Japan
-                        </div>
-                        <div class="col-lg-6 committee-people">
-                            <img src="@/assets/imgs/keynote1.jpg" class="img-thumbnail rounded-circle">
-                            <br><strong>Deborah Richards</strong>
-                            <br>Macquarie University, Australia
-                        </div>
+
 
                     </div>
                 </div>
@@ -121,11 +106,9 @@
   border-bottom: 1px solid #04162c;
   text-align: center;
 }
-h2,p{
-    text-align: left;
-}
+
 strong{
-    border-bottom: solid 2px #003973;
+    border-bottom: solid 2px #004076;
 }
 .committee-sub{
   margin-top:20px;
@@ -135,6 +118,7 @@ strong{
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  color: #004076;
 }
 
 .committee-people{
@@ -143,11 +127,14 @@ strong{
   br{
       text-align: left;
   }
+  h2{
+    border: double 6px #004076;
+  }
 }
 
 
 .committee-people > img{
-  width:250px;
+  width:100px;
   margin-bottom:15px;
   border-radius: 50%;
   // image-rendering:-moz-crisp-edges;
@@ -155,6 +142,6 @@ strong{
   // image-rendering:-webkit-optimize-contrast;
   // image-rendering: crisp-edges;
   -ms-interpolation-mode:nearest-neighbor;
-    border: solid 3px #003973;  
+    border: solid 2px #004076;  
 }
 </style>

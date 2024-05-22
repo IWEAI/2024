@@ -10,8 +10,7 @@
     </el-carousel>
     <div class="overlay ">
       <div class="welcome-text ">
-        <h1 class="animate__animated animate__fadeInDown ">2024 Principle and practice of data and Knowledge Acquisition
-          Workshop</h1>
+        <h1 class="animate__animated animate__fadeInDown ">IWEAI 2024：international workshop of educational artificial intelligence</h1>
         <h2 class="animate__animated animate__fadeInUp">
           Kyoto, Japan
         </h2>
@@ -64,7 +63,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  background: rgba(0, 57, 115, 0.8);
+  background: rgba(0, 57, 115, 0.5);
   /* background: linear-gradient( transparent 10%, rgba(0, 57, 115 ,0.6) 40%,transparent ); */
   /* 半透明黑色背景 */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);

@@ -38,9 +38,13 @@ router.afterEach((to: { path: any; }) => {
     <router-view></router-view>
     <div class="row">
       <div class="col-sm-12 text-center">
-        <h3>
-          © IWEAI 2024
-        </h3>
+        <h2>
+          SUPPORTING ORGANIZATIONS
+        </h2>
+        <div class="imgs">
+          <img src="@/assets/imgs/btm-img1.png" alt="">
+          <img src="@/assets/imgs/btm-img2.png" alt="">
+        </div>
       </div>
   </div>
     <!-- </el-main>
@@ -48,7 +52,7 @@ router.afterEach((to: { path: any; }) => {
   </div>
 </template>
 
-<style scoped>
+<style lang="less" scoped>
 * {
   margin: 0;
   padding: 0;
@@ -75,10 +79,27 @@ body {
 }
 
 .row{
-  height: 50px;
+  height: 100px;
   background: #fff;
   margin: auto;
   align-content: center;
 }
+.text-center{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  h2{
+    margin: 0 100px ;
+    color: #004076;
+  }
+}
 
+.imgs{
+  height: 55px;
+  img{
+    height: 100%;
+    margin: 0 20px;
+  }
+}
 </style>
