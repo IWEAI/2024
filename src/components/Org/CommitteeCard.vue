@@ -16,7 +16,7 @@
                         </div>
                         <div class="col-lg- committee-people">
                             <div class="img-box">
-                                <!-- <img src="@/assets/imgs/people/GangLi.jpg" class="img-thumbnail rounded-circle"> -->
+                                <img src="@/assets/imgs/people/GangLi.jpg" class="img-thumbnail rounded-circle">
                             </div>
 
                             <br><strong>Gang Li</strong>
@@ -108,7 +108,7 @@
                             <div class="col-lg-6 committee-people">
                             <div class="img-box">
 
-                                <!-- <img src="@/assets/imgs/people/LauraBarnes.jpg" class="img-thumbnail rounded-circle"> -->
+                                <img src="@/assets/imgs/people/Aladdin.jpg" class="img-thumbnail rounded-circle">
                             </div>
                                 <br><strong>Aladdin Ayesh</strong>
                                 <br>University of Aberdeen, United Kingdom
@@ -130,8 +130,6 @@
                                 <br> South China Normal University
                             </div>
                         </div>
-
-
                     </div>
                 </div>
     </el-card>
