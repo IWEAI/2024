@@ -12,7 +12,7 @@
                                 <img src="@/assets/imgs/people/Yunchengjiang.jpg" class="img-thumbnail rounded-circle">
                             </div>
                             <br><strong>Yuncheng Jiang</strong>
-                            <br>South China Normal University
+                            <br>South China Normal University, China
                         </div>
                         <div class="col-lg- committee-people">
                             <div class="img-box">
@@ -47,7 +47,7 @@
                             <img src="@/assets/imgs/people/GuojingZhou.jpg" class="img-thumbnail rounded-circle">
                             </div>
                             <br><strong>Guojing Zhou</strong>
-                            <br>South China Normal University
+                            <br>South China Normal University, China
                         </div>
                     </div>
                         <div class="col-lg-12">
@@ -59,21 +59,21 @@
                             <img src="@/assets/imgs/people/LihuaCai.jpg" class="img-thumbnail rounded-circle">
                             </div>
                             <br><strong>Lihua Cai</strong>
-                            <br>South China Normal University
+                            <br>South China Normal University, China
                         </div>
                         <div class="col-lg-12 committee-people">
                             <div class="img-box">
                             <img src="@/assets/imgs/people/WenjunMa.jpg" class="img-thumbnail rounded-circle">
                             </div>
                             <br><strong>Wenjun Ma</strong>
-                            <br>South China Normal University
+                            <br>South China Normal University, China
                         </div>
                         <div class="col-lg-6 committee-people">
                             <div class="img-box">
                             <img src="@/assets/imgs/people/JieyuZhan.jpg" class="img-thumbnail rounded-circle">
                             </div>
                             <br><strong>Jieyu Zhan</strong>
-                            <br>South China Normal University
+                            <br>South China Normal University, China
                         </div>
                     </div>
                         <div class="col-lg-12">
@@ -127,7 +127,7 @@
                                 <img src="@/assets/imgs/people/YongTang.jpg" class="img-thumbnail rounded-circle">
                             </div>
                                 <br><strong>Yong Tang</strong>
-                                <br> South China Normal University
+                                <br> South China Normal University, China
                             </div>
                         </div>
                     </div>
