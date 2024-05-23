@@ -12,7 +12,7 @@
                                 <img src="@/assets/imgs/people/Yunchengjiang.jpg" class="img-thumbnail rounded-circle">
                             </div>
                             <br><strong>Yuncheng Jiang</strong>
-                            <!-- <br>University of Technology Sydney, Australia -->
+                            <br>South China Normal University
                         </div>
                         <div class="col-lg- committee-people">
                             <div class="img-box">
@@ -20,7 +20,7 @@
                             </div>
 
                             <br><strong>Gang Li</strong>
-                            <!-- <br>University of Tasmania, Australia -->
+                            <br>Deakin University, Australia
                         </div>
                     </div>
                         <div class="col-lg-12">
@@ -47,7 +47,7 @@
                             <img src="@/assets/imgs/people/GuojingZhou.jpg" class="img-thumbnail rounded-circle">
                             </div>
                             <br><strong>Guojing Zhou</strong>
-                            <br>SCNU
+                            <br>South China Normal University
                         </div>
                     </div>
                         <div class="col-lg-12">
@@ -59,21 +59,21 @@
                             <img src="@/assets/imgs/people/LihuaCai.jpg" class="img-thumbnail rounded-circle">
                             </div>
                             <br><strong>Lihua Cai</strong>
-                            <br>SCNU
+                            <br>South China Normal University
                         </div>
                         <div class="col-lg-12 committee-people">
                             <div class="img-box">
                             <img src="@/assets/imgs/people/WenjunMa.jpg" class="img-thumbnail rounded-circle">
                             </div>
                             <br><strong>Wenjun Ma</strong>
-                            <br>SCNU
+                            <br>South China Normal University
                         </div>
                         <div class="col-lg-6 committee-people">
                             <div class="img-box">
                             <img src="@/assets/imgs/people/JieyuZhan.jpg" class="img-thumbnail rounded-circle">
                             </div>
                             <br><strong>Jieyu Zhan</strong>
-                            <br>SCNU
+                            <br>South China Normal University
                         </div>
                     </div>
                         <div class="col-lg-12">
