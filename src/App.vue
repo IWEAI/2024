@@ -89,6 +89,7 @@ body {
   height: auto;
   background: #fff;
   margin: auto;
+  // margin-top: 30px;
   align-content: center;
 }
 .text-center{

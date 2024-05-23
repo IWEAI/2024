@@ -35,15 +35,15 @@ export function useHeader() {
       ]
     },
     {
-      title: "CALL FOR PAPERS",
-      path: "/papers",
-      anchor:"#papers",
+      title: "CALL FOR ABSTRACTS",
+      path: "/abstracts",
+      anchor:"#abstracts",
     },
-    {
-      title: "SUBMISSION",
-      path: "/submission",
-      // link:"https://www.easychair.org/",
-    },
+    // {
+    //   title: "SUBMISSION",
+    //   path: "/submission",
+    //   // link:"https://www.easychair.org/",
+    // },
     {
       title: "ATTENDING",
       path: "/attending",

@@ -52,8 +52,8 @@ const router = createRouter({
         ],
       },
     {
-      path: "/papers",
-      name: "papers",
+      path: "/abstracts",
+      name: "abstracts",
       meta: { isAuth: false },
       component: () => import("@/views/PaperView/index.vue"),
     },
@@ -69,12 +69,12 @@ const router = createRouter({
       meta: { isAuth: false },
       component: () => import("@/views/LocalView/index.vue"),
     },
-    {
-      path: "/submission",
-      name: "submission",
-      meta: { isAuth: false },
-      component: () => import("@/views/KeyNotes/index.vue"),
-    },
+    // {
+    //   path: "/submission",
+    //   name: "submission",
+    //   meta: { isAuth: false },
+    //   component: () => import("@/views/KeyNotes/index.vue"),
+    // },
   ]
 });
 

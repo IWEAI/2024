@@ -8,34 +8,46 @@
                         </div>
                     <div class="row committee-sub mx-auto">
                         <div class="col-lg- committee-people">
-                            <img src="@/assets/imgs/keynote1.jpg" class="img-thumbnail rounded-circle">
+                            <div class="img-box">
+                                <img src="@/assets/imgs/people/Yunchengjiang.jpg" class="img-thumbnail rounded-circle">
+                            </div>
                             <br><strong>Yuncheng Jiang</strong>
                             <!-- <br>University of Technology Sydney, Australia -->
                         </div>
                         <div class="col-lg- committee-people">
-                            <img src="@/assets/imgs/keynote1.jpg" class="img-thumbnail rounded-circle">
+                            <div class="img-box">
+                                <!-- <img src="@/assets/imgs/people/GangLi.jpg" class="img-thumbnail rounded-circle"> -->
+                            </div>
+
                             <br><strong>Gang Li</strong>
                             <!-- <br>University of Tasmania, Australia -->
                         </div>
-                        <!-- <div class="col-lg- committee-people">
-                            <img src="@/assets/imgs/keynote1.jpg" class="img-thumbnail rounded-circle">
-                            <br><strong>Muhammad Bilal Amin</strong>
-                            <br>University of Tasmania, Australia
-                        </div> -->
                     </div>
                         <div class="col-lg-12">
                             <h3>Program Chairs</h3>
                         </div>
                     <div class="row committee-sub mx-auto">
+                        
                         <div class="col-lg-6 committee-people">
-                            <img src="@/assets/imgs/keynote1.jpg" class="img-thumbnail rounded-circle">
-                            <br><strong>Jieyu Zhan</strong>
-                            <!-- <br>University of Tasmania, Australia -->
+                            <div class="img-box">
+                            <!-- <img src="@/assets/imgs/people/GuojingZhou.jpg" class="img-thumbnail rounded-circle"> -->
+                            </div>
+                            <br><strong>Xiaowei Jia</strong>
+                            <br>University of Pittsburgh, United States
                         </div>
                         <div class="col-lg-6 committee-people">
-                            <img src="@/assets/imgs/keynote1.jpg" class="img-thumbnail rounded-circle">
+                            <div class="img-box">
+                            <img src="@/assets/imgs/people/ChenLi.jpg" class="img-thumbnail rounded-circle">
+                            </div>
+                            <br><strong>Chen Li</strong>
+                            <br>Nagoya University, Japan
+                        </div>
+                        <div class="col-lg-6 committee-people">
+                            <div class="img-box">
+                            <img src="@/assets/imgs/people/GuojingZhou.jpg" class="img-thumbnail rounded-circle">
+                            </div>
                             <br><strong>Guojing Zhou</strong>
-                            <!-- <br>University of Technology Sydney, Australia -->
+                            <br>SCNU
                         </div>
                     </div>
                         <div class="col-lg-12">
@@ -43,14 +55,25 @@
                         </div>
                     <div class="row committee-sub mx-auto">
                         <div class="col-lg-12 committee-people">
-                            <img src="@/assets/imgs/keynote1.jpg" class="img-thumbnail rounded-circle">
+                            <div class="img-box">
+                            <img src="@/assets/imgs/people/LihuaCai.jpg" class="img-thumbnail rounded-circle">
+                            </div>
                             <br><strong>Lihua Cai</strong>
-                            <!-- <br>Nanjing University of Information Science &amp; Technology, China -->
+                            <br>SCNU
                         </div>
                         <div class="col-lg-12 committee-people">
-                            <img src="@/assets/imgs/keynote1.jpg" class="img-thumbnail rounded-circle">
+                            <div class="img-box">
+                            <img src="@/assets/imgs/people/WenjunMa.jpg" class="img-thumbnail rounded-circle">
+                            </div>
                             <br><strong>Wenjun Ma</strong>
-                            <!-- <br>Nanjing University of Information Science &amp; Technology, China -->
+                            <br>SCNU
+                        </div>
+                        <div class="col-lg-6 committee-people">
+                            <div class="img-box">
+                            <img src="@/assets/imgs/people/JieyuZhan.jpg" class="img-thumbnail rounded-circle">
+                            </div>
+                            <br><strong>Jieyu Zhan</strong>
+                            <br>SCNU
                         </div>
                     </div>
                         <div class="col-lg-12">
@@ -58,8 +81,54 @@
                         </div>
                     <div class="row committee-sub mx-auto">
                         <div class="col-lg- committee-people">
-                            <h2>To Be Determined</h2>
+                            <!-- <h2>To Be Determined</h2> -->
                             <!-- <br>University of Tasmania, Australia -->
+                            <div class="col-lg-6 committee-people">
+                            <div class="img-box">
+
+                                <!-- <img src="@/assets/imgs/people/JieyuZhan.jpg" class="img-thumbnail rounded-circle"> -->
+                            </div>
+                                <br><strong>Weiru Liu</strong>
+                                <br>University of Bristol, United Kingdom
+                            </div>
+                        </div>
+                        <div class="col-lg- committee-people">
+                            <!-- <h2>To Be Determined</h2> -->
+                            <!-- <br>University of Tasmania, Australia -->
+                            <div class="col-lg-6 committee-people">
+                            <div class="img-box">
+
+                                <img src="@/assets/imgs/people/LauraBarnes.jpg" class="img-thumbnail rounded-circle">
+                            </div>
+                                <br><strong>Laura E. Barnes</strong>
+                                <br>University of Virginia, United States
+                            </div>
+                        </div>
+                        <div class="col-lg- committee-people">
+                            <div class="col-lg-6 committee-people">
+                            <div class="img-box">
+
+                                <!-- <img src="@/assets/imgs/people/LauraBarnes.jpg" class="img-thumbnail rounded-circle"> -->
+                            </div>
+                                <br><strong>Aladdin Ayesh</strong>
+                                <br>University of Aberdeen, United Kingdom
+                            </div>
+                        </div>
+                        <div class="col-lg- committee-people">
+                            <div class="col-lg-6 committee-people">
+                                <img src="@/assets/imgs/people/MengchiLiu.jpg" class="img-thumbnail rounded-circle">
+                                <br><strong>Mengchi Liu</strong>
+                                <br>Carleton University, Canada
+                            </div>
+                        </div>
+                        <div class="col-lg- committee-people">
+                            <div class="col-lg-6 committee-people">
+                            <div class="img-box">
+                                <!-- <img src="@/assets/imgs/people/MengchiLiu.jpg" class="img-thumbnail rounded-circle"> -->
+                            </div>
+                                <br><strong>Yong Tang</strong>
+                                <br> South China Normal University
+                            </div>
                         </div>
 
 
@@ -92,7 +161,10 @@ strong{
 
 .committee-people{
   margin-top:20px;
-//   width: 33%;
+  width: 30%;
+  display: flex;
+flex-direction: column;
+align-items: center;
   br{
       text-align: left;
   }
@@ -100,17 +172,45 @@ strong{
     border: double 6px #004076;
   }
 }
-
-
+@media screen and (max-width: 1268px){
+    .committee-people{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 400px){
+    .committee-people{
+        width: 80%;
+    }
+}
+.img-box{
+    width:100px;
+    height:100px;
+    margin:0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: solid 2px #004076;  
+    background: #d7d7d7;
+    img{
+        width:100%;
+        height:100%;
+        object-fit: cover;
+    }
+}
 .committee-people > img{
   width:100px;
   margin-bottom:15px;
   border-radius: 50%;
+  background: #000;
   // image-rendering:-moz-crisp-edges;
   // image-rendering:-o-crisp-edges;
   // image-rendering:-webkit-optimize-contrast;
   // image-rendering: crisp-edges;
   -ms-interpolation-mode:nearest-neighbor;
     border: solid 2px #004076;  
+}
+.row{
+    display: flex;
+    align-items: flex-start;
+    
 }
 </style>

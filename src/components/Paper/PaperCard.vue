@@ -1,7 +1,7 @@
 <template>
   <div>
     <el-card>
-      <h2 class="title">CALL FOR PAPERS</h2>
+      <h2 class="title">CALL FOR ABSTRACTS</h2>
       <div class="mx-auto">
         <ul>
           <li>
@@ -41,7 +41,7 @@
             July 31, 2024
           </li>
           <li><strong>Acceptance Notification:</strong> August 6, 2024</li>
-          <li><strong>Workshop:</strong> November 18, 2024</li>
+          <li><strong>Workshop:</strong> November 20, 2024</li>
         </ul>
         </ul>
         <div class="row">
@@ -54,7 +54,7 @@
                   The submission should be formatted in <a target="_blank" href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines" style="color: #004076;">Springer’s Lecture Notes in Artificial Intelligence (LNAI) camera-ready style template</a>. Latex or Word template can be downloaded following the link <a target="_blank" href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines" style="color: #004076;">https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines</a>. 
                 </li>
                 <br>
-                <li>The 1-2 pages abstract should include a title of the contribution, authors’ name and affiliation, as well as a brief description of the work to present, such as the method proposed, the system developed, the study conducted, and so on. Submissions are handled via <a target="_blank" href="https://www.easychair.org/" style="color: #004076;">EasyChair</a>.</li>
+                <li>The 1-2 pages abstract should include a title of the contribution, authors’ name and affiliation, as well as a brief description of the work to present, such as the method proposed, the system developed, the study conducted, and so on. Submissions should be sent as an email attachment to <span style="color: #004076;">iweai2024@outlook.com</span>.</li>
                 <br>
                 <li>
                   Submissions will be reviewed by our committee members to determine relevance to our workshop. Accepted submissions will be invited to give a talk. 

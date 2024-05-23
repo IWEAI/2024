@@ -7,7 +7,7 @@
             <p class="bold">Acceptance Notification</p>
             <p>August 6, 2024</p>
             <p class="bold">Workshop</p>
-            <p>November 18, 2024</p>
+            <p>November 20, 2024</p>
             <p class="bold">    All deadlines are at the end of the day specified, anywhere on Earth (UTC-12).</p>
         </div>
         <!-- </el-card> -->
