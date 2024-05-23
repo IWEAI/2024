@@ -124,7 +124,7 @@
                         <div class="col-lg- committee-people">
                             <div class="col-lg-6 committee-people">
                             <div class="img-box">
-                                <!-- <img src="@/assets/imgs/people/MengchiLiu.jpg" class="img-thumbnail rounded-circle"> -->
+                                <img src="@/assets/imgs/people/YongTang.jpg" class="img-thumbnail rounded-circle">
                             </div>
                                 <br><strong>Yong Tang</strong>
                                 <br> South China Normal University
