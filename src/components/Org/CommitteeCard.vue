@@ -51,7 +51,7 @@
                         </div>
                     </div>
                         <div class="col-lg-12">
-                            <h3>Publicity Chair</h3>
+                            <h3>Publicity Chairs</h3>
                         </div>
                     <div class="row committee-sub mx-auto">
                         <div class="col-lg-12 committee-people">
