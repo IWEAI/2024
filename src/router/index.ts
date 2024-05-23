@@ -57,12 +57,12 @@ const router = createRouter({
       meta: { isAuth: false },
       component: () => import("@/views/PaperView/index.vue"),
     },
-    {
-      path: "/attending",
-      name: "attending",
-      meta: { isAuth: false },
-      component: () => import("@/views/VenueView/index.vue"),
-    },
+    // {
+    //   path: "/attending",
+    //   name: "attending",
+    //   meta: { isAuth: false },
+    //   component: () => import("@/views/VenueView/index.vue"),
+    // },
     {
       path: "/local",
       name: "local",

@@ -37,15 +37,21 @@ router.afterEach((to: { path: any; }) => {
     <Carousel class="carousel"></Carousel>
     <router-view></router-view>
     <div class="row">
-      <div class="col-sm-12 text-center">
-        <h2>
-          SUPPORTING ORGANIZATIONS
-        </h2>
-        <div class="imgs">
-          <img src="@/assets/imgs/btm-img1.png" alt="">
-          <img src="@/assets/imgs/btm-img2.png" alt="">
+      <div class="text-center">
+          <el-row justify="center" align="middle">
+            <el-col :xs="13" :sm="13" :md="13" :lg="8" :xl="8"> 
+              <h2>
+                SUPPORTING ORGANIZATIONS
+              </h2>
+            </el-col>
+            <el-col :xs="13" :sm="13" :md="13" :lg="14" :xl="14">
+              <div class="imgs">
+                <img src="@/assets/imgs/btm-img1.png" alt="">
+                <img src="@/assets/imgs/btm-img2.png" alt="">
+              </div>
+            </el-col>
+        </el-row>
         </div>
-      </div>
   </div>
     <!-- </el-main>
     </el-container> -->
@@ -79,7 +85,8 @@ body {
 }
 
 .row{
-  height: 100px;
+  min-height: 120px;
+  height: auto;
   background: #fff;
   margin: auto;
   align-content: center;
@@ -90,7 +97,6 @@ body {
   align-items: center;
   justify-content: center;
   h2{
-    margin: 0 100px ;
     color: #004076;
   }
 }
@@ -99,7 +105,7 @@ body {
   height: 55px;
   img{
     height: 100%;
-    margin: 0 20px;
+    // margin: 0 20px;
   }
 }
 </style>

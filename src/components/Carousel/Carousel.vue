@@ -37,11 +37,13 @@
 
 .img {
   position: absolute;
+  height: 100%;
   top: 0px;
   left: 0px;
   min-width: 100%;
   width: 100% !important;
   object-fit: cover;
+  overflow: hidden;
 }
 
 .overlay {

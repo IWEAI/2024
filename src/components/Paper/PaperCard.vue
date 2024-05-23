@@ -114,7 +114,9 @@ p {
 ul{
     list-style-type: none;
     text-align: left;
-}
+    padding-inline-start: 0px;
+
+  }
 .btn{
     background-color: #04162c;
     color: white;

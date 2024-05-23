@@ -1,6 +1,6 @@
 <template>
     <div class="tbd-card">
-        <h1>To Be Determined</h1>
+        <span>To Be Determined</span>
     </div>
 </template>
 
@@ -11,5 +11,11 @@
 <style lang="less" scoped>
 .tbd-card{
     border: double 8px #004076;
+}
+
+span{
+    font-size: clamp(2.5rem, 5vw, 60px);
+    color: #004076;
+    font-weight: bold;
 }
 </style>

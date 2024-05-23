@@ -80,6 +80,7 @@ p {
 ul {
   list-style-type: none;
   text-align: left;
+  padding-inline-start: 0px;
 }
 
 .btn {

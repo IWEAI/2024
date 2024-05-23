@@ -7,17 +7,17 @@
                             <h3>Workshop Chairs</h3>
                         </div>
                     <div class="row committee-sub mx-auto">
-                        <div class="col-lg-4 committee-people">
+                        <div class="col-lg- committee-people">
                             <img src="@/assets/imgs/keynote1.jpg" class="img-thumbnail rounded-circle">
                             <br><strong>Yuncheng Jiang</strong>
                             <!-- <br>University of Technology Sydney, Australia -->
                         </div>
-                        <div class="col-lg-4 committee-people">
+                        <div class="col-lg- committee-people">
                             <img src="@/assets/imgs/keynote1.jpg" class="img-thumbnail rounded-circle">
                             <br><strong>Gang Li</strong>
                             <!-- <br>University of Tasmania, Australia -->
                         </div>
-                        <!-- <div class="col-lg-4 committee-people">
+                        <!-- <div class="col-lg- committee-people">
                             <img src="@/assets/imgs/keynote1.jpg" class="img-thumbnail rounded-circle">
                             <br><strong>Muhammad Bilal Amin</strong>
                             <br>University of Tasmania, Australia
@@ -53,42 +53,11 @@
                             <!-- <br>Nanjing University of Information Science &amp; Technology, China -->
                         </div>
                     </div>
-                        <!-- <div class="col-lg-12">
-                            <h3>Webmaster and Workshop Coordinators</h3>
-                        </div>
-                    <div class="row committee-sub mx-auto">
-                        <div class="col-lg-6 committee-people">
-                            <img src="@/assets/imgs/keynote1.jpg" class="img-thumbnail rounded-circle">
-                            <br><strong>Hai Huang</strong>
-                            <br>University of Tasmania, Australia
-                        </div>
-                        <div class="col-lg-6 committee-people">
-                            <img src="@/assets/imgs/keynote1.jpg" class="img-thumbnail rounded-circle">
-                            <br><strong>Yuhui Jin</strong>
-                            <br>University of Tasmania, Australia
-                        </div>
-                    </div>
-
-                        <div class="col-lg-12">
-                            <h3>Honorary Chairs</h3>
-                        </div>
-                    <div class="row committee-sub mx-auto">
-                        <div class="col-lg-6 committee-people">
-                            <img src="@/assets/imgs/keynote1.jpg" class="img-thumbnail rounded-circle">
-                            <br><strong>Paul Compton</strong>
-                            <br>University of New South Wales, Australia
-                        </div>
-                        <div class="col-lg-6 committee-people">
-                            <img src="@/assets/imgs/keynote1.jpg" class="img-thumbnail rounded-circle">
-                            <br><strong>Hiroshi Motoda</strong>
-                            <br>Osaka University, Japan
-                        </div>
-                    </div> -->
                         <div class="col-lg-12">
                             <h3>Advisory Board</h3>
                         </div>
                     <div class="row committee-sub mx-auto">
-                        <div class="col-lg-4 committee-people">
+                        <div class="col-lg- committee-people">
                             <h2>To Be Determined</h2>
                             <!-- <br>University of Tasmania, Australia -->
                         </div>
@@ -116,14 +85,14 @@ strong{
   width:100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   color: #004076;
 }
 
 .committee-people{
   margin-top:20px;
-  width: 33%;
+//   width: 33%;
   br{
       text-align: left;
   }
