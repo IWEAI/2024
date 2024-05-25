@@ -30,7 +30,7 @@
                         
                         <div class="col-lg-6 committee-people">
                             <div class="img-box">
-                            <!-- <img src="@/assets/imgs/people/GuojingZhou.jpg" class="img-thumbnail rounded-circle"> -->
+                            <img src="@/assets/imgs/people/XiaoweiJia.jpg" class="img-thumbnail rounded-circle">
                             </div>
                             <br><strong>Xiaowei Jia</strong>
                             <br>University of Pittsburgh, United States
@@ -86,7 +86,7 @@
                             <div class="col-lg-6 committee-people">
                             <div class="img-box">
 
-                                <!-- <img src="@/assets/imgs/people/JieyuZhan.jpg" class="img-thumbnail rounded-circle"> -->
+                                <img src="@/assets/imgs/people/WeiruLiu.png" class="img-thumbnail rounded-circle">
                             </div>
                                 <br><strong>Weiru Liu</strong>
                                 <br>University of Bristol, United Kingdom
