@@ -41,7 +41,7 @@
             July 31, 2024
           </li>
           <li><strong>Acceptance Notification:</strong> August 6, 2024</li>
-          <li><strong>Workshop:</strong> November 20, 2024</li>
+          <li><strong>Workshop:</strong> November 19, 2024</li>
         </ul>
         </ul>
         <div class="row">
