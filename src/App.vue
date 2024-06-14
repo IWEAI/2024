@@ -39,15 +39,16 @@ router.afterEach((to: { path: any; }) => {
     <div class="row">
       <div class="text-center">
           <el-row justify="center" align="middle">
-            <el-col :xs="13" :sm="13" :md="13" :lg="8" :xl="8"> 
+            <el-col :xs="13" :sm="13" :md="8" :lg="4" :xl="4"> 
               <h2>
                 SUPPORTING ORGANIZATIONS
               </h2>
             </el-col>
-            <el-col :xs="13" :sm="13" :md="13" :lg="14" :xl="14">
+            <el-col :xs="13" :sm="13" :md="16" :lg="20" :xl="20">
               <div class="imgs">
                 <img src="@/assets/imgs/btm-img1.png" alt="">
                 <img src="@/assets/imgs/btm-img2.png" alt="">
+                <img src="@/assets/imgs/btm-img3.png" alt="">
               </div>
             </el-col>
         </el-row>
@@ -106,7 +107,7 @@ body {
   height: 55px;
   img{
     height: 100%;
-    // margin: 0 20px;
+    margin: 0 20px;
   }
 }
 </style>
