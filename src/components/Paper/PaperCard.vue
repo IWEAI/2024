@@ -38,9 +38,10 @@
           <ul>
           <li>
             <strong>Abstract Submission Deadline:</strong>
-            August 7, 2024
+            August 6, 2024
           </li>
           <li><strong>Acceptance Notification:</strong> August 13, 2024</li>
+          <li><strong>Camera ready deadline:</strong> August 20, 2024</li>
           <li><strong>Workshop:</strong> November 19, 2024</li>
         </ul>
         </ul>
