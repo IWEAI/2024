@@ -15,7 +15,7 @@
           Kyoto, Japan
         </h2>
         <h2 class="animate__animated animate__fadeInUp">
-          19 November 2024
+          18-19 November 2024
         </h2>
       </div>
     </div>

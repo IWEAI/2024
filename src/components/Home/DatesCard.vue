@@ -9,7 +9,7 @@
             <p class="bold">Camera ready deadline</p>
             <p>August 20, 2024</p>
             <p class="bold">Workshop</p>
-            <p>November 19, 2024</p>
+            <p>November18-19, 2024</p>
             <p class="bold">    All deadlines are at the end of the day specified, anywhere on Earth (UTC-12).</p>
         </div>
         <!-- </el-card> -->
