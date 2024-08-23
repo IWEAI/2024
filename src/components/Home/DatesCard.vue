@@ -7,7 +7,7 @@
             <p class="bold">Acceptance Notification</p>
             <p>August 13, 2024</p>
             <p class="bold">Camera ready deadline</p>
-            <p>August 20, 2024</p>
+            <p>September 4, 2024</p>
             <p class="bold">Workshop</p>
             <p>November18-19, 2024</p>
             <p class="bold">    All deadlines are at the end of the day specified, anywhere on Earth (UTC-12).</p>
