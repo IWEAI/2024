@@ -6,11 +6,11 @@ export function useHeader() {
       path: "/home",
       anchor:"#home",
     },
-    {
-      title: "KEYNOTES",
-      path: "/keynotes",
-      anchor:"#keynotes",
-    },
+    // {
+    //   title: "KEYNOTES",
+    //   path: "/keynotes",
+    //   anchor:"#keynotes",
+    // },
     {
       title: "PROGRAM",
       path: "/program",
