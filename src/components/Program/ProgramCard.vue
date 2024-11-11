@@ -45,7 +45,7 @@
           </tr>
           <tr class="table-secondary">
             <td rowspan="1">10:45-11:00</td>
-            <td>A Model for Evaluating Digital Literacy of Teachers Based on Multimodal Perception</td>
+            <td>AestheNet: Revolutionizing Aesthetic Perception Diagnosis in Education With Hybrid Deep Nets</td>
             <td>Yupeng Zhou</td>
           </tr>
           <tr>
