@@ -1,28 +1,28 @@
 <template>
   <el-carousel :interval="2000" type="card" height="400px">
     <el-carousel-item>
-      <img src="../../assets/imgs/past/1.jpg" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
+      <img src="@/assets/imgs/past/1.jpg" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
     </el-carousel-item>
     <el-carousel-item>
-      <img src="../../assets/imgs/past/2.jpg" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
+      <img src="@/assets/imgs/past/2.jpg" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
     </el-carousel-item>
     <el-carousel-item>
-      <img src="../../assets/imgs/past/3.jpg" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
+      <img src="@/assets/imgs/past/3.jpg" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
     </el-carousel-item>
     <el-carousel-item>
-      <img src="../../assets/imgs/past/4.jpg" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
+      <img src="@/assets/imgs/past/4.jpg" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
     </el-carousel-item>
     <el-carousel-item>
-      <img src="../../assets/imgs/past/5.jpg" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
+      <img src="@/assets/imgs/past/5.jpg" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
     </el-carousel-item>
     <el-carousel-item>
-      <img src="../../assets/imgs/past/6.jpg" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
+      <img src="@/assets/imgs/past/6.jpg" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
     </el-carousel-item>
     <el-carousel-item>
-      <img src="../../assets/imgs/past/7.jpg" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
+      <img src="@/assets/imgs/past/7.jpg" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
     </el-carousel-item>
     <el-carousel-item>
-      <img src="../../assets/imgs/past/8.jpg" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
+      <img src="@/assets/imgs/past/8.jpg" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
     </el-carousel-item>
   </el-carousel>
 </template>
