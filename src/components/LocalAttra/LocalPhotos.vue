@@ -1,46 +1,51 @@
 <template>
-  <el-carousel :interval="2000" type="card" height="400px">
-    <el-carousel-item>
-      <img src="@/assets/imgs/past/1.jpg" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
-    </el-carousel-item>
-    <el-carousel-item>
-      <img src="@/assets/imgs/past/2.jpg" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
-    </el-carousel-item>
-    <el-carousel-item>
-      <img src="@/assets/imgs/past/3.png" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
-    </el-carousel-item>
-    <el-carousel-item>
-      <img src="@/assets/imgs/past/4.jpg" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
-    </el-carousel-item>
-    <el-carousel-item>
-      <img src="@/assets/imgs/past/5.jpg" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
-    </el-carousel-item>
-    <el-carousel-item>
-      <img src="@/assets/imgs/past/6.jpg" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
-    </el-carousel-item>
-    <el-carousel-item>
-      <img src="@/assets/imgs/past/7.jpg" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
-    </el-carousel-item>
-    <el-carousel-item>
-      <img src="@/assets/imgs/past/8.jpg" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
-    </el-carousel-item>
-  </el-carousel>
+  <div>
+    <el-select class="select" v-model="selectedYear" placeholder="选择年份" @change="handleYearChange">
+      <el-option
+        v-for="year in years"
+        :key="year"
+        :label="year"
+        :value="year"
+      />
+    </el-select>
+
+    <el-carousel :interval="2000" type="card" height="400px">
+      <el-carousel-item v-for="item in photos" :key="item">
+        <img :src="item" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
+      </el-carousel-item>
+    </el-carousel>
+  </div>
 </template>
 
 <script lang="ts" setup>
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 
-const photos = ref([
-  '../../assets/imgs/past/1.jpg',
-  '../../assets/imgs/past/2.jpg',
-  '../../assets/imgs/past/3.png',
-  '../../assets/imgs/past/4.jpg',
-  '../../assets/imgs/past/5.jpg',
-  '../../assets/imgs/past/6.jpg',
-  '../../assets/imgs/past/7.jpg',
-  '../../assets/imgs/past/8.jpg',
-  // 添加更多图片路径
-])
+const selectedYear = ref(2024)
+const years = ref(['2024'])
+
+// 假设图片路径根据年份动态生成
+const photos = computed(() => {
+  if (selectedYear.value) {
+    return [
+      `/assets/imgs/${selectedYear.value}/1.jpg`,
+      `/assets/imgs/${selectedYear.value}/2.jpg`,
+      `/assets/imgs/${selectedYear.value}/3.png`,
+      `/assets/imgs/${selectedYear.value}/4.jpg`,
+      `/assets/imgs/${selectedYear.value}/5.jpg`,
+      `/assets/imgs/${selectedYear.value}/6.jpg`,
+      `/assets/imgs/${selectedYear.value}/7.jpg`,
+      `/assets/imgs/${selectedYear.value}/8.jpg`
+    ]
+  }
+  return []
+})
+
+const handleYearChange = (year) => {
+  selectedYear.value = year
+}
+
+// 默认选择最新年份
+selectedYear.value = years.value[years.value.length - 1]
 </script>
 
 <style scoped>
@@ -60,5 +65,12 @@ const photos = ref([
 
 .el-carousel__item:nth-child(2n + 1) {
   background-color: #d3dce6;
+}
+.select{
+    width: 200px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 </style>
