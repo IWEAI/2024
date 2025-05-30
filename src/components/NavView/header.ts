@@ -55,7 +55,7 @@ export function useHeader() {
     },
     {
       title: "PAST IWEAI",
-      path: "/",
+      path: "/past",
   //     children: [
   //       {
   //         title: "ORGANIZING COMMITTEE",

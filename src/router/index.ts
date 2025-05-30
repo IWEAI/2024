@@ -75,6 +75,12 @@ const router = createRouter({
     //   meta: { isAuth: false },
     //   component: () => import("@/views/KeyNotes/index.vue"),
     // },
+        {
+      path: "/past",
+      name: "past",
+      meta: { isAuth: false },
+      component: () => import("@/views/PastView/index.vue"),
+    },
   ]
 });
 
