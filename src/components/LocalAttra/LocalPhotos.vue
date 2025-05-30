@@ -1,7 +1,28 @@
 <template>
   <el-carousel :interval="2000" type="card" height="400px">
-    <el-carousel-item v-for="item in photos" :key="item">
-      <img :src="item" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
+    <el-carousel-item>
+      <img src="../../assets/imgs/past/1.jpg" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
+    </el-carousel-item>
+    <el-carousel-item>
+      <img src="../../assets/imgs/past/2.jpg" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
+    </el-carousel-item>
+    <el-carousel-item>
+      <img src="../../assets/imgs/past/3.jpg" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
+    </el-carousel-item>
+    <el-carousel-item>
+      <img src="../../assets/imgs/past/4.jpg" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
+    </el-carousel-item>
+    <el-carousel-item>
+      <img src="../../assets/imgs/past/5.jpg" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
+    </el-carousel-item>
+    <el-carousel-item>
+      <img src="../../assets/imgs/past/6.jpg" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
+    </el-carousel-item>
+    <el-carousel-item>
+      <img src="../../assets/imgs/past/7.jpg" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
+    </el-carousel-item>
+    <el-carousel-item>
+      <img src="../../assets/imgs/past/8.jpg" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
     </el-carousel-item>
   </el-carousel>
 </template>
@@ -10,14 +31,14 @@
 import { ref } from 'vue'
 
 const photos = ref([
-  'src/assets/imgs/past/1.jpg',
-  'src/assets/imgs/past/2.jpg',
-  'src/assets/imgs/past/3.png',
-  'src/assets/imgs/past/4.jpg',
-  'src/assets/imgs/past/5.jpg',
-  'src/assets/imgs/past/6.jpg',
-  'src/assets/imgs/past/7.jpg',
-  'src/assets/imgs/past/8.jpg',
+  '../../assets/imgs/past/1.jpg',
+  '../../assets/imgs/past/2.jpg',
+  '../../assets/imgs/past/3.png',
+  '../../assets/imgs/past/4.jpg',
+  '../../assets/imgs/past/5.jpg',
+  '../../assets/imgs/past/6.jpg',
+  '../../assets/imgs/past/7.jpg',
+  '../../assets/imgs/past/8.jpg',
   // 添加更多图片路径
 ])
 </script>
