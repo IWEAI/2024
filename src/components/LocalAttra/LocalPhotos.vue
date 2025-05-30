@@ -9,9 +9,30 @@
       />
     </el-select>
 
-    <el-carousel :interval="2000" type="card" height="400px">
-      <el-carousel-item v-for="item in photos" :key="item">
-        <img :src="item" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
+    <el-carousel :interval="2000" type="card" height="400px" v-if="selectedYear==2024">
+      <el-carousel-item >
+        <img src="@/assets/imgs/2024/1.jpg" style="width: 100%; height: 100%; object-fit: cover;" />
+      </el-carousel-item>
+      <el-carousel-item >
+        <img src="@/assets/imgs/2024/2.jpg" style="width: 100%; height: 100%; object-fit: cover;" />
+      </el-carousel-item>
+      <el-carousel-item >
+        <img src="@/assets/imgs/2024/3.png" style="width: 100%; height: 100%; object-fit: cover;" />
+      </el-carousel-item>
+      <el-carousel-item >
+        <img src="@/assets/imgs/2024/4.jpg" style="width: 100%; height: 100%; object-fit: cover;" />
+      </el-carousel-item>
+      <el-carousel-item >
+        <img src="@/assets/imgs/2024/5.jpg" style="width: 100%; height: 100%; object-fit: cover;" />
+      </el-carousel-item>
+      <el-carousel-item >
+        <img src="@/assets/imgs/2024/6.jpg" style="width: 100%; height: 100%; object-fit: cover;" />
+      </el-carousel-item>
+      <el-carousel-item >
+        <img src="@/assets/imgs/2024/7.jpg" style="width: 100%; height: 100%; object-fit: cover;" />
+      </el-carousel-item>
+      <el-carousel-item >
+        <img src="@/assets/imgs/2024/8.jpg" style="width: 100%; height: 100%; object-fit: cover;" />
       </el-carousel-item>
     </el-carousel>
   </div>
@@ -23,29 +44,29 @@ import { ref, computed } from 'vue'
 const selectedYear = ref(2024)
 const years = ref(['2024'])
 
-// 假设图片路径根据年份动态生成
-const photos = computed(() => {
-  if (selectedYear.value) {
-    return [
-      `@/assets/imgs/${selectedYear.value}/1.jpg`,
-      `@/assets/imgs/${selectedYear.value}/2.jpg`,
-      `@/assets/imgs/${selectedYear.value}/3.png`,
-      `@/assets/imgs/${selectedYear.value}/4.jpg`,
-      `@/assets/imgs/${selectedYear.value}/5.jpg`,
-      `@/assets/imgs/${selectedYear.value}/6.jpg`,
-      `@/assets/imgs/${selectedYear.value}/7.jpg`,
-      `@/assets/imgs/${selectedYear.value}/8.jpg`
-    ]
-  }
-  return []
-})
+// // 假设图片路径根据年份动态生成
+// const photos = computed(() => {
+//   if (selectedYear.value) {
+//     return [
+//       `@/assets/imgs/${selectedYear.value}/1.jpg`,
+//       `@/assets/imgs/${selectedYear.value}/2.jpg`,
+//       `@/assets/imgs/${selectedYear.value}/3.png`,
+//       `@/assets/imgs/${selectedYear.value}/4.jpg`,
+//       `@/assets/imgs/${selectedYear.value}/5.jpg`,
+//       `@/assets/imgs/${selectedYear.value}/6.jpg`,
+//       `@/assets/imgs/${selectedYear.value}/7.jpg`,
+//       `@/assets/imgs/${selectedYear.value}/8.jpg`
+//     ]
+//   }
+//   return []
+// })
 
 const handleYearChange = (year) => {
   selectedYear.value = year
 }
 
 // 默认选择最新年份
-selectedYear.value = years.value[years.value.length - 1]
+// selectedYear.value = years.value[years.value.length - 1]
 </script>
 
 <style scoped>
