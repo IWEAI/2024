@@ -7,7 +7,7 @@
       <img src="@/assets/imgs/past/2.jpg" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
     </el-carousel-item>
     <el-carousel-item>
-      <img src="@/assets/imgs/past/3.jpg" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
+      <img src="@/assets/imgs/past/3.png" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
     </el-carousel-item>
     <el-carousel-item>
       <img src="@/assets/imgs/past/4.jpg" alt="carousel image" style="width: 100%; height: 100%; object-fit: cover;" />
