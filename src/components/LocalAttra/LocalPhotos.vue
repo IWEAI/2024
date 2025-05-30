@@ -27,14 +27,14 @@ const years = ref(['2024'])
 const photos = computed(() => {
   if (selectedYear.value) {
     return [
-      `/assets/imgs/${selectedYear.value}/1.jpg`,
-      `/assets/imgs/${selectedYear.value}/2.jpg`,
-      `/assets/imgs/${selectedYear.value}/3.png`,
-      `/assets/imgs/${selectedYear.value}/4.jpg`,
-      `/assets/imgs/${selectedYear.value}/5.jpg`,
-      `/assets/imgs/${selectedYear.value}/6.jpg`,
-      `/assets/imgs/${selectedYear.value}/7.jpg`,
-      `/assets/imgs/${selectedYear.value}/8.jpg`
+      `/2024/assets/imgs/${selectedYear.value}/1.jpg`,
+      `/2024/assets/imgs/${selectedYear.value}/2.jpg`,
+      `/2024/assets/imgs/${selectedYear.value}/3.png`,
+      `/2024/assets/imgs/${selectedYear.value}/4.jpg`,
+      `/2024/assets/imgs/${selectedYear.value}/5.jpg`,
+      `/2024/assets/imgs/${selectedYear.value}/6.jpg`,
+      `/2024/assets/imgs/${selectedYear.value}/7.jpg`,
+      `/2024/assets/imgs/${selectedYear.value}/8.jpg`
     ]
   }
   return []
